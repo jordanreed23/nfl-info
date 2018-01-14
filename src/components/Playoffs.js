@@ -10,9 +10,9 @@ const Playoffs = (props) => {
   return (<div>
     <h1>Teams remaining in the 2018 playoffs</h1>
     {
-      TeamAPI.all().map(x => {
+      TeamAPI.all().map((x, index) => {
         if (x.inPlayoffs === true) {
-          return (<h2>
+          return (<h2 key={index}>
             {x.team}
           </h2>)
         }
