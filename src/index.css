@@ -3,3 +3,25 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.news-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px 15px 15px 15px;
+}
+
+.team-logo{
+  width: auto;
+  height: 75%;
+  margin: 10px 22px 10px 10px;
+}
+
+.player-name{
+  margin: 0 0 0 0;
+}
+
+.article-body{
+  margin: 7px 0 0 0;
+  width: 75%;
+}
